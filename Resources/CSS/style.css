@@ -1,0 +1,143 @@
+* {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2,h4 {
+    margin: 10px;
+}
+
+/* begin header style */
+
+.header-flex-container {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 69px;
+    align-items: center
+}
+
+.nav a {
+    margin-left: 30px;
+    margin-right: 10px;
+    color: seashell;
+    text-decoration: underline;
+}
+
+.logo img {
+    height: 50px;
+    margin: 10px;
+    z-index: 1;
+}
+
+/* begin main style */
+
+/* Begin "Our Mission" style */
+.our_mission {
+    position: relative;
+    border-top: 1px solid seashell;
+}
+
+img.background {
+    height: 700px;
+    width: 1200px;
+    z-index: 1;
+}
+
+.mission.text {
+    position: absolute;
+    background-color: black;
+    z-index: 10;
+    top: 44%;
+    transform:translateY(-50%);
+    left: 0px;
+    right: 0px;
+    margin: 0;
+}
+
+/* Begin "Tea of the Month" style */
+.tea_of_month {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+img.chain_imgs {
+    height: 200px;
+    width: 300px;
+}
+
+.month_img_container {
+    display: inline-flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content:center; 
+}
+
+.tea_container {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Begin "Location" style */
+.locations {
+    position: relative;
+}
+
+img.location.background {
+    height: 700px;
+    width: 1200px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.location.text {
+    position: absolute;
+    top: 30%;
+    transform:translateY(-50%);
+    left: 0px;
+    right: 0px;
+}
+
+.address_boxes {
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.address {
+    box-sizing: border-box;
+    background-color: black;
+    width: 300px;
+    /* height: 200px; */
+    margin-left: 20px;
+    margin-right: 20px
+    opacity: 1;
+}
+
+.tea_cozy {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+}
+
+/* Begin Footer style */
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
