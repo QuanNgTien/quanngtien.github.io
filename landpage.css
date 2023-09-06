@@ -1,0 +1,127 @@
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    }
+  }
+
+html,
+body {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+#topBanner {
+    padding-inline: 1rem;
+}
+.nav-link {
+    color: rgba(33, 37, 41, 1);
+}
+
+
+
+.jumbotron {
+    background-image: url("./img/jumbotron3.jpg");
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+#key_features, #proffessionals  {
+    background-color: aliceblue;
+}
+
+#key_features_header,
+#activities_header {
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#key_features_text,
+#activities_header_text
+{
+    width: 100%;
+    text-align: center;
+}
+
+#box_features {
+    padding-inline: 10% ;
+    
+}
+
+
+
+h3{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+
+#key_employees {
+    background-color: rgb(163 230 53);
+    margin-bottom: 1.67rem
+}
+
+#absolute_img {
+    position: absolute;
+    height: 20rem;
+    left: 60%;
+    bottom: 0rem;
+}
+
+#key_employees_text {
+    margin-top: 3rem;
+    margin-bottom: 9rem;
+    
+}
+
+#pro_cards,
+#activities_cards {
+    margin-bottom: 2rem;
+}
+
+#activities {
+    background-color: white;
+}
+
+#footer_part {
+    background-color: rgb(63 63 70);;
+    color: white;
+}
+
+#footer_contact_row {
+    width: 100%;
+    margin: 1rem;
+    border-bottom: 1px solid white;
+}
+
+#footer_about_us {
+    margin-left: 2rem;
+}
+
+#footer_cert{
+    margin: 1rem;
+    align-items: right;
+}
+
+/*
+.img-responsive {
+    width: 90%;
+}
+
+.top_right {
+    text-align: right;
+    
+}
+
+#menu-menu-top,
+#right_top_navbar {
+    float: right;
+}
+*/
+
+

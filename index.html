@@ -1,0 +1,304 @@
+<!doctype html>
+<script>
+  $('.dropdown-toggle').click(function(e) {
+  if ($(document).width() > 768) {
+    e.preventDefault();
+
+    var url = $(this).attr('href');
+
+       
+    if (url !== '#') {
+    
+      window.location.href = url;
+    }
+
+  }
+});
+</script>
+
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./landpage.css">
+    <link href="https://fonts.cdnfonts.com/css/myriad-pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Sample VNVC land page</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <header>
+            <!-- Top green banner -->
+            <div id="topBanner" class="row align-items-center" style="background-color: rgb(163 230 53);">
+                <div class="col-2 align-items-center">
+                    <img src="./img/icons8-email-100.png" alt="Email" width=6%><a href=" hotro@trungtamxetnghiem.com" style="color: white;"> hotro@trungtamxetnghiem.com</a>
+                </div>
+                <div class="col-1" style="padding-left: 0rem;">
+                  <img src="./img/icons8-telephone-64.png" alt="Email" width=10%><a href="tel:0984968981" style="color: white;"> 0984968981</a>
+                </div>  
+                <div class="col-9 d-flex flex-row justify-content-end">
+                    <a href="fb_trungtamxetnghiem.com" class="p-2"><i class="fa fa-facebook-square"></i></a>
+                    <a href="map.google.com" class="p-2"><img src="./img/icons8-google-maps-96.png" width=20px alt="map" style="padding: 0rem;"></a>
+                    <a href="zalo.me" class="p-2"><img src="./img/zalo.png" width=15%></a>
+                </div>  
+            </div>
+            <!-- Navbar and Icon banner-->
+            <div class="row bg-light align-items-center">
+              <!-- Icon -->
+              <div class="col-3">
+                <a href="./index.html"><img src="./img/logo.png" alt="" width="30%"></a>
+              </div>
+              <!--Navbar-->
+              <div class="col-9">
+                <nav class="navbar navbar-expand-lg" style="float: center;">
+                  <!-- <a class="navbar-brand" href="#">Trang </a> -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">TRANG CHỦ<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TRUNG TÂM XÉT NGHIỆM</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">TRANG THIẾT BỊ LABO</a>
+                          <a class="dropdown-item" href="#">LẤY MẪU TẠI NHÀ</a>
+                          <a class="dropdown-item" href="#">BẢNG GIÁ XÉT NGHIỆM</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">TRA CỨU KẾT QUẢ XÉT NGHIỆM</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TIÊM CHỦNG TRẺ EM</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">LỊCH TIÊM CHỦNG</a>
+                          <a class="dropdown-item" href="#">LƯU Ý TRƯỚC VÀ SAU KHI TIÊM</a>
+                          <a class="dropdown-item" href="#">DANH SÁCH VẮC XIN</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">CÁC GÓI TIÊM CHỦNG</a>
+                          <a class="dropdown-item" href="#">TRA CỨU LỊCH SỬ TIÊM</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TIÊM CHỦNG NGƯỜI LỚN</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">LỊCH TIÊM CHỦNG</a>
+                          <a class="dropdown-item" href="#">LƯU Ý TRƯỚC VÀ SAU KHI TIÊM</a>
+                          <a class="dropdown-item" href="#">DANH SÁCH VẮC XIN</a>
+                          <a class="dropdown-item" href="#">BẢNG GIÁ TIÊM CHỦNG VẮC XIN</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">CÁC GÓI TIÊM CHỦNG</a>
+                          <a class="dropdown-item" href="#">TRA CỨU LỊCH SỬ TIÊM</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Y HỌC CỔ TRUYỀN</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">THÔNG TIN Y HỌC</a>
+                          <a class="dropdown-item" href="#">PHỤC HỒI CHỨC NĂNG</a>
+                          <a class="dropdown-item" href="#">CHÂM CỨU - BẤM HUYỆT</a>
+                          <a class="dropdown-item" href="#">THUỐC VÀ SINH PHẨM</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">CÁC GÓI TRỊ LIỆU </a>
+                          <a class="dropdown-item" href="#">TRA CỨU LỊCH SỬ ĐIỀU TRỊ</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CHUYÊN KHOA NHI</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">THÔNG TIN Y HỌC</a>
+                          <a class="dropdown-item" href="#">DINH DƯỠNG</a>
+                          <a class="dropdown-item" href="#">CÁC BỆNH THEO MÙA</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CHUYÊN SẢN</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">THÔNG TIN Y HỌC</a>
+                          <a class="dropdown-item" href="#">DINH DƯỠNG MANG THAI</a>
+                          <a class="dropdown-item" href="#">CHĂM SÓC SAU SINH</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+                
+            </div>
+        </header>
+        
+        <main>
+          <!-- jumbotron or big carousel-->
+          <div class="jumbotron">
+            <h1 class="display-4 text-white text-uppercase font-weight-bold">DỊCH VỤ XÉT NGHIỆM</h1>
+            <br><br>
+            <p class="lead text-white text-uppercase font-weight-normal">Đội ngũ y bác sĩ chuyên nghiệp...</p>
+            <br><br>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Đăng ký khám</a>
+            </p>
+          </div>
+          <!-- Key Features - Dịch Vụ CHính-->
+          <div class="row" id="key_features">
+            <div class="row" id="key_features_header">
+              <h3>Dịch Vụ Chuyên Nghiệp</h3>
+            </div>
+              <div class="row" id="key_features_text">
+                <p id="key_features_text">Chúng tôi tự hào với các dịch vụ có chất lượng vượt trội</p>
+              </div>
+              
+              <div class ="row" style="width: 100%;" >
+                <div class="row mx-auto" id="box_features">
+                  <div class="shadow-lg p-3 m-2 bg-white rounded">
+                    <img src="./img/icons8-health-checkup-100.png" alt="Khám bệnh">
+                    <h5 style="text-align: center;">Khám Bệnh</h5>
+                    <p>khám sức khỏe tổng quát và chuyên sâu</p>
+                  </div>
+                  <div class="shadow-lg p-3 m-2 bg-white rounded">
+                    <img src="./img/icons8-health-checkup-100.png" alt="Khám bệnh">
+                    <h5 style="text-align: center;">Khám Bệnh</h5>
+                    <p>khám sức khỏe tổng quát và chuyên sâu</p>
+                  </div>
+                  <div class="shadow-lg p-3 m-2 bg-white rounded">
+                    <img src="./img/icons8-health-checkup-100.png" alt="Khám bệnh">
+                    <h5 style="text-align: center;">Khám Bệnh</h5>
+                    <p>khám sức khỏe tổng quát và chuyên sâu</p>
+                  </div>
+                </div>
+                <div class="row mx-auto" id="box_features" style="margin-bottom: 5rem ;">
+                  <div class="shadow-lg p-3 m-2 bg-white rounded">
+                    <img src="./img/icons8-health-checkup-100.png" alt="Khám bệnh">
+                    <h5 style="text-align: center;">Khám Bệnh</h5>
+                    <p>khám sức khỏe tổng quát và chuyên sâu</p>
+                  </div>
+                  <div class="shadow-lg p-3 m-2 bg-white rounded">
+                    <img src="./img/icons8-health-checkup-100.png" alt="Khám bệnh">
+                    <h5 style="text-align: center;">Khám Bệnh</h5>
+                    <p>khám sức khỏe tổng quát và chuyên sâu</p>
+                  </div>
+                  <div class="shadow-lg p-3 m-2 bg-white rounded">
+                    <img src="./img/icons8-health-checkup-100.png" alt="Khám bệnh">
+                    <h5 style="text-align: center;">Khám Bệnh</h5>
+                    <p>khám sức khỏe tổng quát và chuyên sâu</p>
+                  </div>
+                </div>
+              </div>
+              
+                
+          </div>
+          <!-- Đội ngũ chuyên gia-->
+          <div class="row" id="key_employees">
+            <div class="col-6">
+              <img src="./img/GS_Lan_Hieu.png" alt="" id="absolute_img">
+            </div>
+            <div class="col-6" id="key_employees_text">
+              <H4>GS. Nguyễn Lân Hiếu</H4>
+              <p>Giáo sư hàng đầu tim mạch Vietnam</p>
+            </div>
+          </div>    
+          <div class="row" id="proffessionals">
+            <div class="row" id="key_features_header">
+              <h3>Dịch Vụ Chuyên Nghiệp</h3>
+            </div>
+            <div class="row" id="key_features_text">
+              <p id="key_features_text">Chúng tôi tự hào với các dịch vụ có chất lượng vượt trội</p>
+            </div>
+            <div class="row mx-auto" id="pro_cards">
+              <div class="col card" style="width: 18rem; margin: 1rem;">
+                <img class="card-img-top" src="./img/doctor-44.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="col card" style="width: 18rem; margin: 1rem;">
+                <img class="card-img-top" src="./img/doctor-44.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="col  card" style="width: 18rem; margin: 1rem;">
+                <img class="card-img-top" src="./img/doctor-44.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>   
+          <div class="row" id="activities">
+            <div class="row" id="activities_header">
+              <h3>Thông Tin Khoa Học & Sức Khỏe</h3>
+            </div>
+            <div class="row" id="activities_header_text">
+              <p id="key_features_text">Thông tin dịch bệnh và các hoạt động của Trung Tâm vượt trội</p>
+            </div>
+            <div class="row mx-auto" id="activities_cards">
+              <div class="col card" style="width: 18rem; margin: 1rem;">
+                <img class="card-img-top" src="./img/health_tech.jpg" alt="Tin Công Nghệ">
+                <div class="card-body">
+                  <p class="card-text">Chúng tôi tự hào cung cấp những công nghệ khám chữa bệnh và chăm sóc tiên tiến nhất</p>
+                </div>
+              </div>
+              <div class="col card" style="width: 18rem; margin: 1rem;">
+                <img class="card-img-top" src="./img/virus.jpg" alt="Tin Dịch Bệnh">
+                <div class="card-body">
+                  <p class="card-text">Cập nhật thông tin bệnh dịch và các khuyến cáo...</p>
+                </div>
+              </div>
+              <div class="col  card" style="width: 18rem; margin: 1rem;">
+                <img class="card-img-top" src="./img/treatment_room.png" alt="Hình ảnh Trung Tâm">
+                <div class="card-body">
+                  <p class="card-text">Trung Tâm luôn đầu tư cơ sở vật chất tốt nhất cho sức khỏe của người dân.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+    
+        <footer>
+          <div class="row" id="footer_part">
+            <div class="row" id="footer_contact_row">
+              <Div  class="col-6" id="contacts">
+                <h5 id="contacts_header">TRUNG TÂM XÉT NGHIỆP VÀ TIÊM CHỦNG</h5>
+                <ul>
+                  <li>Tại Hải Phòng: 35 Lạch Tray</li>
+                  <li>Tại Hải Dương: 360 Nguyễn Lương Bằng</li>
+                </ul>
+              </Div>
+              <Div  class="col-6" id="working_time">
+                <ul>
+                  <li>Buổi sáng: 7:00 - 12:00</li>
+                  <li>Buổi chiều: 13:00 - 17:00</li>
+                  <li>Thứ 7, CN và ngày lễ: Theo quy định của nhà nước</li>
+                </ul>
+              </Div>
+            </div>
+            <div class="row" id="footer_about_us">
+              <div class="rol-10" id="about_us">
+                <h5 id="about_us_header">TRUNG TÂM XÉT NGHIỆP VÀ TIÊM CHỦNG</h5>
+                <p>Giấy chứng nhận số.....</p>
+                <p>Địa chỉ: ....Tp. Hà Nộ</p>
+                <p>Email: hotro@trungtamxetnghiem.com, info@trungtamxetnghiem.com</p>
+                
+              </div>
+              
+            </div>
+          </div>
+
+
+        </footer>
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
