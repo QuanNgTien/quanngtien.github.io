@@ -1,0 +1,304 @@
+<!doctype html>
+<script>
+  $('.dropdown-toggle').click(function(e) {
+  if ($(document).width() > 768) {
+    e.preventDefault();
+
+    var url = $(this).attr('href');
+
+       
+    if (url !== '#') {
+    
+      window.location.href = url;
+    }
+
+  }
+});
+</script>
+
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./lich_tiem.css">
+    <link href="https://fonts.cdnfonts.com/css/myriad-pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Sample TDC Lich Tiem Chung Tre Em</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <header>
+            <!-- Top green banner -->
+            <div id="topBanner" class="row align-items-center" style="background-color: rgb(163 230 53);">
+                <div class="col-2 align-items-center">
+                    <img src="./img/icons8-email-100.png" alt="Email" width=6%><a href=" hotro@trungtamxetnghiem.com" style="color: white;"> hotro@trungtamxetnghiem.com</a>
+                </div>
+                <div class="col-1" style="padding-left: 0rem;">
+                  <img src="./img/icons8-telephone-64.png" alt="Email" width=10%><a href="tel:0984968981" style="color: white;"> 0984968981</a>
+                </div>  
+                <div class="col-9 d-flex flex-row justify-content-end">
+                    <a href="fb_trungtamxetnghiem.com" class="p-2"><i class="fa fa-facebook-square"></i></a>
+                    <a href="map.google.com" class="p-2"><img src="./img/icons8-google-maps-96.png" width=20px alt="map" style="padding: 0rem;"></a>
+                    <a href="zalo.me" class="p-2"><img src="./img/zalo.png" width=15%></a>
+                </div>  
+            </div>
+            <!-- Navbar and Icon banner-->
+            <div class="row bg-light align-items-center">
+              <!-- Icon -->
+              <div class="col-3">
+                <a href="./index.html"><img src="./img/logo.png" alt="" width="30%"></a>
+              </div>
+              <!--Navbar-->
+              <div class="col-9">
+                <nav class="navbar navbar-expand-lg" style="float: center;">
+                  <!-- <a class="navbar-brand" href="#">Trang </a> -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">TRANG CHỦ<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TRUNG TÂM XÉT NGHIỆM</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">TRANG THIẾT BỊ LABO</a>
+                          <a class="dropdown-item" href="#">LẤY MẪU TẠI NHÀ</a>
+                          <a class="dropdown-item" href="#">BẢNG GIÁ XÉT NGHIỆM</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">TRA CỨU KẾT QUẢ XÉT NGHIỆM</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TIÊM CHỦNG TRẺ EM</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">LỊCH TIÊM CHỦNG</a>
+                          <a class="dropdown-item" href="#">LƯU Ý TRƯỚC VÀ SAU KHI TIÊM</a>
+                          <a class="dropdown-item" href="#">DANH SÁCH VẮC XIN</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">CÁC GÓI TIÊM CHỦNG</a>
+                          <a class="dropdown-item" href="#">TRA CỨU LỊCH SỬ TIÊM</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TIÊM CHỦNG NGƯỜI LỚN</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">LỊCH TIÊM CHỦNG</a>
+                          <a class="dropdown-item" href="#">LƯU Ý TRƯỚC VÀ SAU KHI TIÊM</a>
+                          <a class="dropdown-item" href="#">DANH SÁCH VẮC XIN</a>
+                          <a class="dropdown-item" href="#">BẢNG GIÁ TIÊM CHỦNG VẮC XIN</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">CÁC GÓI TIÊM CHỦNG</a>
+                          <a class="dropdown-item" href="#">TRA CỨU LỊCH SỬ TIÊM</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Y HỌC CỔ TRUYỀN</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">THÔNG TIN Y HỌC</a>
+                          <a class="dropdown-item" href="#">PHỤC HỒI CHỨC NĂNG</a>
+                          <a class="dropdown-item" href="#">CHÂM CỨU - BẤM HUYỆT</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">CÁC GÓI TRỊ LIỆU </a>
+                          <a class="dropdown-item" href="#">TRA CỨU LỊCH SỬ ĐIỀU TRỊ</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CHUYÊN KHOA NHI</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">THÔNG TIN Y HỌC</a>
+                          <a class="dropdown-item" href="#">DINH DƯỠNG</a>
+                          <a class="dropdown-item" href="#">CÁC BỆNH THEO MÙA</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CHUYÊN KHOA SẢN</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">THÔNG TIN Y HỌC</a>
+                          <a class="dropdown-item" href="#">CHĂM SÓC TRƯỚC & SAU SINH</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+                
+            </div>
+        </header>
+        
+        <main>
+          <!-- jumbotron or big carousel-->
+          <div class="jumbotron">
+            <h1 class="display-4 text-white text-uppercase font-weight-bold">DỊCH VỤ XÉT NGHIỆM</h1>
+            <br><br>
+            <p class="lead text-white text-uppercase font-weight-normal">Đội ngũ y bác sĩ chuyên nghiệp...</p>
+            <br><br>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Đăng ký khám</a>
+            </p>
+          </div>
+          <!-- Lịch Tiêm Chủng-->
+          <!-- breadcrumbs -->
+          <div class="row">
+            <div class="col-4" id="breadcrumbs_part">
+                <nav aria-label="breadcrumbs" class="rank-math-breadcrumb"><p><a href="./index.html">Trang chủ</a><span class="separator"> » </span><span class="last">Lịch tiêm chủng cho trẻ</span></p></nav>
+            </div>
+            <!-- lich tiem -->
+          </div>
+          <div class="row" id="lich_tiem">
+            <div class="row" id="lich_tiem_header">
+                <div class="col-5">
+                    <h1>LỊCH TIÊM CHỦNG CHO TRẺ</h1>
+                </div>
+            </div>
+            <div class="row" id="lich_tiem_table" >
+                <div class="col-9 div_detail_post tbcnangs"> 
+                    <table class="table-bordered tb90 text-center vmid" style="width: 819px;">
+                        <tbody> 
+                            <tr> 
+                                <td style="color: #ffffff; text-align: center; width: 725px;" colspan="16" bgcolor="#304095"><strong>LỊCH TIÊM CHỦNG CHO TRẺ TỪ 0-8 TUỔI</strong></td> 
+                            </tr> 
+                            <tr> 
+                                <td style="color: #ffffff; text-align: left; width: 128px;" rowspan="2" bgcolor="#525aa3">Tuổi/Vaccine</td> 
+                                <td style="color: #ffffff; width: 39px;" bgcolor="#525aa3"></td> 
+                                <td style="color: #ffffff; text-align: center; width: 398px;" colspan="10" bgcolor="#525aa3">Tháng</td> 
+                                <td style="color: #ffffff; text-align: center; width: 160px;" colspan="4" bgcolor="#525aa3">Tuổi</td> 
+                            </tr> 
+                            <tr> 
+                                <td style="color: #ffffff; width: 39px; text-align: center;" bgcolor="#525aa3">Sơ sinh</td> 
+                                <td style="color: #ffffff; width: 39px; text-align: center;" bgcolor="#525aa3">2</td> 
+                                <td style="color: #ffffff; width: 39px; text-align: center;" bgcolor="#525aa3">3</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">4</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">6</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">7</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">8</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">9</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">10 -11</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">12</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">18</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">2</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">3-4</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">5-6</td> 
+                                <td style="color: #ffffff; width: 40px; text-align: center;" bgcolor="#525aa3">7-8</td> 
+                            </tr> 
+                            <tr> 
+                                <td style="text-align: left; width: 128px;">Lao</td> <td style="text-align: center; width: 39px;">x</td> <td style="width: 39px;"></td> 
+                                <td style="width: 39px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                            </tr> 
+                            <tr> 
+                                <td style="text-align: left; width: 128px;">Viêm gan B</td> 
+                                <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="text-align: center; width: 40px;"></td> <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;">x</td> 
+                            </tr> 
+                            <tr> 
+                                <td style="text-align: left; width: 128px;">Bạch hầu, ho gà, uốn ván</td> 
+                                <td style="width: 39px;"></td> 
+                                <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;">x</td> 
+                                <td style="width: 40px;"></td> 
+                            </tr> 
+                            <tr> 
+                                <td style="text-align: left; width: 128px;">Bại liệt</td> 
+                                <td style="width: 39px;"></td> 
+                                <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                            </tr> 
+                            <tr> 
+                                <td style="text-align: left; width: 128px;">Viêm phổi, viêm màng não mủ do Hib</td>
+                                <td style="width: 39px;"></td>
+                                <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> 
+                                <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> </tr> <tr> <td style="text-align: left; width: 128px;">Tiêu chảy do Rota Virus</td> <td style="width: 39px;"></td> <td style="width: 158px;" colspan="4">Phác đồ 2 hoặc 3 liều, mỗi liều cách nhau tối thiểu 1 tháng</td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> </tr> <tr> <td style="text-align: left; width: 128px;">Viêm phổi, viêm màng não, viêm tai giữa do phế cầu khuẩn</td> <td style="width: 39px;"></td> <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 39px;">x</td> <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> <td style="text-align: center; width: 40px;"></td> <td style="text-align: center; width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;">x</td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> </tr> <tr> <td style="text-align: left; width: 128px;">Viêm màng não, nhiễm khuẩn huyết, viêm phổi do não mô cầu khuẩn B,C</td> <td style="width: 39px;"></td> <td style="text-align: center; width: 39px;"></td> <td style="text-align: center; width: 39px;"></td> <td style="text-align: center; width: 40px;"></td> <td style="width: 40px;">x</td> <td style="text-align: center; width: 40px;"></td> <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> </tr> <tr> <td style="text-align: left; width: 128px;">Cúm</td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 40px;"></td> <td style="width: 440px;" colspan="11">Phác đồ tiêm 2 liều cách nhau tối thiểu một tháng cho lần tiêm đầu tiên.<br> Tiêm nhắc lại 1 liều mỗi năm.</td> </tr> <tr> <td style="text-align: left; width: 128px;">Sởi</td> <td style="text-align: center; width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px; text-align: center;"></td> <td style="width: 40px; text-align: center;">&nbsp;x</td> <td style="width: 40px;"></td> <td style="text-align: center; width: 40px;"></td> <td style="width: 40px; text-align: center;">&nbsp;x</td> <td style="width: 40px;"></td> <td style="text-align: center; width: 80px;"></td> <td style="text-align: center; width: 80px;"></td> <td style="width: 40px;"></td> </tr> <tr> <td style="text-align: left; width: 128px;">Viêm màng não, nhiễm khuẩn huyết, viêm phổi do não mô cầu khuẩn A,C,W,Y</td> <td style="text-align: center; width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="text-align: center; width: 40px;"></td> <td style="text-align: center; width: 40px;"></td> <td style="text-align: center; width: 40px;">x</td> <td style="text-align: center; width: 40px;"></td> <td style="text-align: center; width: 40px;">x</td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> </tr> <tr> <td style="text-align: left; width: 128px;">Viêm não Nhật Bản</td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="text-align: left; width: 320px;" colspan="8">– Phác đồ 2 liều tiêm cách nhau 1 năm<br> – Hoặc phác đồ 3 liều tiêm và nhắc lại mỗi 3 năm một liều đến 15 tuổi</td> </tr> <tr> <td style="text-align: left; width: 128px;">Sởi, Quai bị, Rubella</td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="text-align: center; width: 40px;"></td> <td style="text-align: center; width: 40px;"></td> <td style="text-align: center; width: 40px;"></td> <td style="text-align: center; width: 40px;"></td> <td style="width: 40px; text-align: center;">&nbsp;&nbsp;x</td> <td style="width: 40px;"></td> <td style="width: 80px;"></td> <td style="width: 80px; text-align: center;" colspan="2">&nbsp;x</td> <td style="width: 40px;"></td> </tr> <tr> <td style="text-align: left; width: 128px;">Thủy đậu</td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;" colspan="8">Phác đồ 2 liều tiêm cách nhau tối thiểu 3 tháng</td> </tr> <tr> <td style="text-align: left; width: 128px;">Viêm gan A</td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 240px;" colspan="6">Phác đồ 2 liều tiêm cách nhau tối thiểu 6 tháng</td> </tr> <tr> <td style="text-align: left; width: 128px;">Viêm gan A + B</td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 240px;" colspan="6">Phác đồ 2 liều tiêm cách nhau tối thiểu 6-12 tháng</td> </tr> <tr> <td style="text-align: left; width: 128px;">Thương hàn</td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 160px;" colspan="4">1 liều và nhắc lại mỗi 3 năm</td> </tr> <tr> <td style="text-align: left; width: 128px;">Bệnh tả</td> <td style="text-align: center; width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 39px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 40px;"></td> <td style="width: 160px;" colspan="4"><span style="font-weight: 400;">2 liều cách nhau tối thiểu 2 tuần</span></td> 
+                                </tr> 
+                            </tbody> 
+                        </table> 
+                </div>
+
+            </div>   
+                
+          </div>
+          
+        </main>
+    
+        <footer>
+          <div class="row" id="footer_part">
+            <div class="row" id="footer_contact_row">
+              <Div  class="col-6" id="contacts">
+                <h5 id="contacts_header">TRUNG TÂM XÉT NGHIỆP VÀ TIÊM CHỦNG</h5>
+                <ul>
+                  <li>Tại Hải Phòng: 35 Lạch Tray</li>
+                  <li>Tại Hải Dương: 360 Nguyễn Lương Bằng</li>
+                </ul>
+              </Div>
+              <Div  class="col-6" id="working_time">
+                <ul>
+                  <li>Buổi sáng: 7:00 - 12:00</li>
+                  <li>Buổi chiều: 13:00 - 17:00</li>
+                  <li>Thứ 7, CN và ngày lễ: Theo quy định của nhà nước</li>
+                </ul>
+              </Div>
+            </div>
+            <div class="row" id="footer_about_us">
+              <div class="rol-10" id="about_us">
+                <h5 id="about_us_header">TRUNG TÂM XÉT NGHIỆP VÀ TIÊM CHỦNG</h5>
+                <p>Giấy chứng nhận số.....</p>
+                <p>Địa chỉ: ....Tp. Hà Nộ</p>
+                <p>Email: hotro@trungtamxetnghiem.com, info@trungtamxetnghiem.com</p>
+                
+              </div>
+              
+            </div>
+          </div>
+
+
+        </footer>
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

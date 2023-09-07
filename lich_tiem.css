@@ -1,0 +1,94 @@
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    }
+  }
+
+html,
+body {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+#topBanner {
+    padding-inline: 1rem;
+}
+.nav-link {
+    color: rgba(33, 37, 41, 1);
+}
+
+.jumbotron {
+    background-image: url("./img/jumbotron3.jpg");
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+
+
+/* Format for lich_tiem part */
+#breadcrumbs_part {
+    padding-inline: 2rem;
+}
+
+
+#lich_tiem {
+    background-color: aliceblue;
+    padding-inline: 2rem;
+}
+
+#lich_tiem_header {
+    width: 100%;
+    /* padding-inline: 3rem; */
+}
+
+#lich_tiem_table{
+    padding-bottom: 2rem;
+}
+
+
+
+/* For mart for footer */
+
+#footer_part {
+    background-color: rgb(63 63 70);;
+    color: white;
+}
+
+#footer_contact_row {
+    width: 100%;
+    margin: 1rem;
+    border-bottom: 1px solid white;
+}
+
+#footer_about_us {
+    margin-left: 2rem;
+}
+
+#footer_cert{
+    margin: 1rem;
+    align-items: right;
+}
+
+/*
+.img-responsive {
+    width: 90%;
+}
+
+.top_right {
+    text-align: right;
+    
+}
+
+#menu-menu-top,
+#right_top_navbar {
+    float: right;
+}
+*/
+
+
